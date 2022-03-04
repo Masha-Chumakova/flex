@@ -198,8 +198,9 @@ footer .left_panel{
 	flex-direction: column;
 	justify-content: center;
 	width: 40%;
-	
-	
+	min-width: 40%;
+    width: calc((25em - 100%) * 1000);
+    max-width: 100%;
 	align-items: center;
 	padding: 10px;
 	border-radius: 10px;
